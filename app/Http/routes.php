@@ -12,9 +12,9 @@
 */
 
 Route::get('/', 'FrontController@index');
-Route::get('contacto', 'FrontController@upload');
-Route::get('reviews', 'FrontController@cine_tv');
-Route::get('reviews', 'FrontController@control_panel');
+Route::get('upload', 'FrontController@upload');
+Route::get('cine_tv', 'FrontController@cine_tv');
+Route::get('control_panel', 'FrontController@control_panel');
 
 //Route::resource('movie','MovieController');
 
