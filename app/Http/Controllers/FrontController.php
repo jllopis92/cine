@@ -20,4 +20,7 @@ class FrontController extends Controller
     public function control_panel(){
     	return view('control_panel');
     }
+       public function admin(){
+        return view('admin.index');
+   }
 }
